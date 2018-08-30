@@ -10,16 +10,18 @@
  * AUTH0_DOMAIN
  */
 
+ // allows for a http request to be made from lambda
 const rp = require('request-promise');
 
 const generateResponse = (status, message) => {
     return {
         statusCode: status,
-        headers: { 'Access-Control-Allow-Origin': '*' },
+        headers: { 'Access-Control-Allow-Origin': '*' }, // allows cross domain request
         body: JSON.stringify({'message':message})
     }
 };
 
+// entry point for lambda
 const handler = (event, context, callback) => {
 
     console.log(JSON.stringify(event, null, 2));
