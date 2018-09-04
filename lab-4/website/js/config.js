@@ -1,7 +1,7 @@
 var configConstants = {
     auth0: {
-        domain: 'YOUR_AUTH0_DOMAIN_HERE',
-        clientId: 'YOUR_AUTH0_CLIENT_ID_HERE'
+        domain: 'mcz-dev.auth0.com',
+        clientId: 'wpivx5i6LRj1neDNUXchLakvfWk6aDVG'
     },
-    apiBaseUrl: 'YOUR_API_BASE_URL_HERE_NO_TRAILING_SLASH'
+    apiBaseUrl: 'https://3rlwo45zn1.execute-api.us-east-1.amazonaws.com/dev'
 };

@@ -9,6 +9,7 @@
   "author": "Peter Sbarski",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "aws-sdk": "^2.203.0"
+    "aws-sdk": "^2.203.0",
+    "npm": "^6.4.1"
   }
 }
