@@ -63,12 +63,7 @@ var videoController = {
         var that = this;
 
         var config = {
-            apiKey: "AIzaSyBPCEGlI6NiBtod_phKLoanv8eps508ajQ",
-            authDomain: "acg-zarate-dev-video-upload.firebaseapp.com",
-            databaseURL: "https://acg-zarate-dev-video-upload.firebaseio.com",
-            projectId: "acg-zarate-dev-video-upload",
-            storageBucket: "acg-zarate-dev-video-upload.appspot.com",
-            messagingSenderId: "891053986273"
+            /* SENSITIVE DATA GOES HERE*/
           };
 
         firebase.initializeApp(config);
